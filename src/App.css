@@ -1,0 +1,56 @@
+ 
+body {
+  font-family: Arial, sans-serif;
+  background: #f0f4f8;
+  margin: 0;
+}
+
+.container {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+  background: white;
+  border-radius: 10px;
+}
+
+h1, h2 {
+  text-align: center;
+  color: #0f766e;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+input {
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  padding: 12px;
+  color: white;
+  background: #0f766e;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #115e59;
+}
+
+p {
+  padding: 12px;
+  background: #f0fdfa;
+  border-radius: 5px;
+}
+
+@media (max-width: 650px) {
+  .container {
+    margin: 20px;
+  }
+}
